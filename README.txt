@@ -5,6 +5,12 @@ Sends “ping”
 Enclave 2 local attests Enclave 2 and then creates its own diffie hellman session
 Sends “pong”
 
+--Example Usage--
+source /home/shiv/Research/Intel-SGX-Installation/linux-sgx/linux/installer/bin/sgxsdk/environment
+make SGX_MODE=SIM
+./app
+Video Demo at 
+
 ---Sample Code Description Below---
 ---------------------------
 Purpose of LocalAttestation
